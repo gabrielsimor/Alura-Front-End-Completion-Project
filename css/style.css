@@ -1,0 +1,159 @@
+header img{
+    width: 100%;
+}
+
+main{
+    margin: 0 auto;
+}
+
+main h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+main h2{
+    font-size: 29px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+main p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.area-palestrantes{
+    background-color: #ef7246;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.titulo-palestrantes {
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+.subtitulo-palestrantes{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+
+.img-palestrante{
+    width: 90%;
+    border: none;
+    border-radius: 100%;
+    
+}
+
+
+.palestrantes{
+	width: 90%;
+	margin: 0 auto;
+	padding: 50px 0;
+
+}
+
+.palestrantes li {
+    background-color: white;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1.5%;
+    margin-top: 15px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+    border: none;
+	border-radius: 10px;
+}
+
+
+
+.palestrantes h2 {
+	font-size: 18px;
+	
+}
+
+.palestrante-descricao {
+	font-size: 18px;
+    font-weight: bold;
+}
+
+.palestrantes li:hover{
+    border: solid black 0.5px;
+}
+
+footer h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #ef7246;
+}
+
+
+footer form{
+    margin-left: 10%;
+    margin-bottom: 100px;
+}
+
+footer button{
+    margin-left: 33%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 75px;
+    width: 25%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(5, 139, 163);
+
+}
+
+footer button:hover{
+    box-shadow: 2px 2px gray;
+}
+
+footer form input{
+    display: block;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+   
+    
+}
+
+footer form label{
+
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+
+}
+
+@media screen and (max-width: 780px) {
+    .palestrantes li{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .palestrantes li{
+        width: 80%;
+        margin-left:10%;
+        
+    }
+    footer button{
+        width: 50%;
+        margin-left: 20%;
+    }
+}
+
